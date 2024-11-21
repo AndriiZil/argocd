@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 
 app.get('/status', (req, res) => {
   return res.send({
-    message: 'ok',
+    message: 'I am ok',
   });
 });
 
